@@ -22,14 +22,12 @@ This is project number 2 for Udacity Front-End Nanodegree. The project give me, 
 - [Footer](#footer)
 
 # Installation
-[(Back to top)](#table-of-contents)
 
 1. download the zip and extract the file.
 2. fork and use git clone
 
 
 # Development
-[(Back to top)](#table-of-contents)
 
 I used the following languages:
 1. HTML
@@ -42,7 +40,6 @@ You don't need any unique tool to edit except notepad (or any IDE) and a modern 
 
 
 # Footer
-[(Back to top)](#table-of-contents)
 
 <!-- Let's also add a footer because I love footers and also you **can** use this to convey important info.
 
