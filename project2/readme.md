@@ -27,8 +27,6 @@ This is project number 2 for Udacity Front-End Nanodegree. The project give me, 
 1. download the zip and extract the file.
 2. fork and use git clone
 
-```git clone https://github.com/navendu-pottekkat/nsfw-filter.git``` -->
-
 
 # Development
 [(Back to top)](#table-of-contents)
