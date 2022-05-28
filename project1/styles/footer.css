@@ -1,0 +1,14 @@
+footer {
+  display: flex;
+  gap: 3px;
+}
+.footer-email-push {
+  margin-left: auto;
+}
+
+@media (max-width: 480px) {
+  /* smartphones, Android phones, landscape iPhone */
+  .footer-email-push {
+    margin-left: 5px;
+  }
+}

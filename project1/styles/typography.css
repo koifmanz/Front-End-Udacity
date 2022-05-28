@@ -1,0 +1,51 @@
+body {
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 15px;
+}
+
+.info h4,
+.meta {
+  font-size: 0.7em;
+}
+.meta {
+  font-style: italic;
+}
+
+.header,
+.header a {
+  color: rgb(12, 11, 11);
+}
+
+.description {
+  font-size: 0.85em;
+  font-style: italic;
+}
+
+h2 {
+  font-size: 1.5em;
+  color: #fd7009;
+}
+
+h3 {
+  color: #fdb900;
+}
+
+.footer-about,
+.footer-rights,
+.footer-email-push {
+  font-size: 0.8em;
+  font-style: italic;
+}
+
+.post-history {
+  color: black;
+  font-size: 0.8em;
+  text-decoration: underline dotted;
+}
+
+.post-history:visited {
+  color: black;
+  font-size: 0.8em;
+  text-decoration: underline dotted;
+}
