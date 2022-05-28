@@ -30,6 +30,9 @@ const sections = document.querySelectorAll("section");
 
 function buildNavBar() {
 
+    // the tree of the navbar: 
+    // header (exist) -> nav (exist) -> ul (created) -> li  (created) -> a (created)
+
     // create the ul element to hold the nav items
     //should be the same as: <ul class="navbar_menu_list navbar__menu"></ul>
     const nav_area_list = document.createElement("ul");
@@ -40,7 +43,6 @@ function buildNavBar() {
     // the nav bar is built from the sections array
     // the array is the sections of the site
     for (let i = 0; i < sections.length; i++) {
-        // loop through the sections array and create a nav bar item for each section
         const section = sections[i];
         const sectionId = section.getAttribute("id");
         const navItem = document.createElement("li");
@@ -62,6 +64,8 @@ function buildNavBar() {
 
 
 // check if section in in viewport
+// if it is, add class to section
+// if not, remove class from section
 function sectionInViewPort() {
     for (const section of sections) {
         let rect = section.getBoundingClientRect();
